@@ -20,7 +20,6 @@ type Subscriber struct {
 }
 
 func main() {
-	// http.Handle(".", http.FileServer(http.Dir(".")))
 	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("./static/"))))
 	http.HandleFunc("/", subscriberList)
 	http.ListenAndServe(":8080", nil)
