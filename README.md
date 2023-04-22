@@ -1,4 +1,4 @@
-# Concurrency with Mysql in Docker
+# Concurrency in Go with Mysql in Docker
 
 docker-compose up db
 
