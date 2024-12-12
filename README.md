@@ -1,4 +1,4 @@
-# Concurrency in Go with Mysql in Docker
+# Users age restriction with Mysql in Docker
 
 docker-compose up db
 
