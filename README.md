@@ -1,4 +1,4 @@
-# Users age restriction with Mysql in Docker
+# Users age restriction
 
 docker-compose up db
 
